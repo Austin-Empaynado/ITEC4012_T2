@@ -15,6 +15,7 @@ function initializeApp(){
 //must set upstream (git that was clone, and where we push changes)
 
 //New comment test
+//Branch test
 async function displayMeme(){
     try{
         const response = await
@@ -22,7 +23,7 @@ async function displayMeme(){
         const jsonResponse = await response.json();
         //required
         console.log(jsonResponse);
-        const meme = jsonResponse.data.memes[1];
+        const meme = jsonResponse.data.memes[2];
 
         const image = document.createElement("img");
         image.src = meme.url;
