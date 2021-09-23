@@ -10,6 +10,11 @@ function initializeApp(){
 //note how it's all in JSON
 //we have to grab the image url from the JSON Object
 
+//commit is like save
+//push is like submitting
+//must set upstream (git that was clone, and where we push changes)
+
+//New comment test
 async function displayMeme(){
     try{
         const response = await
